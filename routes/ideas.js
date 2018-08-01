@@ -4,7 +4,7 @@ const router = express.Router();
 const {ensureAuthenticated} = require('../helpers/auth');
 
 // Load Idea Model
-require('../models/Idea');
+require('../models/idea');
 const Idea = mongoose.model('ideas');
 
 // Idea Index Page
